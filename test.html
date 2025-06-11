@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio gua</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    nav .logo {
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #00adb5;
+    }
+
+    section {
+      padding: 80px 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #00adb5, #0077b6);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .about {
+      background-color: white;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      padding: 40px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .about .foto-gallery {
+      margin-top: 20px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .about .foto-gallery img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .skills {
+      background-color: white;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      padding: 40px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .skills .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .skills .skill-list li {
+      background-color: #00adb5;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 20px;
+      list-style: none;
+    }
+
+    .projects {
+      background-color: white;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      padding: 40px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .project-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-left: 5px solid #00adb5;
+      border-radius: 5px;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    .contact {
+      background-color: white;
+      border-radius: 8px;
+      padding: 40px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1 class="logo">Portofolio</h1>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang Saya</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#kontak">Hubungi Saya</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="beranda" class="hero">
+    <div class="container">
+      <h2>Deny Pangestu</h2>
+      <h2></h2>
+      <p>Jagoan Mamak | Roamer | Super Saiyan</p>
+    </div>
+  </section>
+
+  <section id="tentang" class="about">
+    <div class="container">
+      <h2>Tentang Gua </h2>
+      <p>Halo om, kenalin nama gua Deny, Deny Pangestu. 
+        disini gua gak banyak ceritain tentang kelebihan
+         bahkan kekurangan gua ya gua cuma mau ngomong 
+         kalo gua itu adalah salah satu fans berat dari 
+         Anime, terutama Anime Dragon Ball, yapss DB era 80 an 
+         termasuk. Gak hanya DB tapi juga Hokuto No Ken, Evangelion,
+        JOJO'S, dan Sailor Moon 🗿
+</p>
+      <div class="foto-gallery">
+        <img src="db ball.jpg" alt="Foto 1">
+        <img src="hnk.jpg"Foto 2">
+        <img src="eva.jpg" alt="Foto 3">
+        <img src="jojo.jpg" alt="Foto 4">
+        <img src="usagi.jpg" alt="Foto 4">
+    
+      </div>
+    </div>
+  </section>
+
+  <section id="skill" class="skills">
+    <div class="container">
+      <h2>Skill</h2>
+<p>
+Aku bisa membuat design grafis meskioun tidak sempurna dan juga baik tapi aku mempelajarinya hari hari demi hari. jika ingin melihat beberapa contohnya kalian juga bisa mengunjungi web di bawah ini</p>
+
+<a href="https://kryosan.github.io/Kryosan144p/" clsss="download-btn"> klick disini om</a>
+
+
+
+
+     </div>
+    </div>
+  </section>
+
+
+
+ <section id="kontak" class="contact me">
+    <div class="container">
+      <h2>Hubungi Saya</h2>
+      <p> silahkan hubungi gua jika ada sesuatu yang tidak ingin ditanyakan</p>
+      
+    <p>Email: <a href="mailto:dewudd2@email.com">kurang worth it</a></p>
+    <p>WhatsApp: <a href="https://wa.me/+6285600445772" target="_blank">sangat worth it</a></p>
+   
+</section>
